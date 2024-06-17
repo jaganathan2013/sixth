@@ -1,0 +1,179 @@
+
+.testimonials-img{
+    margin-top: 8%;
+}
+.testimonials{
+    padding: 2rem 0;
+    margin: 1rem 0;
+    background: #f7e5db !important;
+}
+.testimonials-box {
+
+    display: flow-root;
+    position: relative;
+    padding: 14px;
+    padding-top: 0;
+    border-radius: 30px;
+    margin: 50px 0 30px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 45px #e6e6e6, -28px -28px 45px #ffffff;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.testimonials-box:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.testimonial-box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.testimonials-box-img {
+    min-width: 75px;
+    min-height: 75px;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 10px 10px 60px #d4d4d4;
+}
+
+.testimonials-box-text .h3-title {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.testimonials-box-text p {
+    margin: 0;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+}
+
+/* star rating */
+.star-rating {
+    font-size: 22px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.star-rating::before {
+    content: "\f005\f005\f005\f005\f005";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: #c8c8c8;
+    filter: drop-shadow(0 0.6rem 0.3rem rgba(0, 0, 0, 0.05));
+    letter-spacing: 4px;
+}
+
+.star-rating__fill {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: fill-star 2s ease-in-out;
+}
+
+.star-rating__fill::after {
+    content: "\f005\f005\f005\f005\f005";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: #ff8243;
+    letter-spacing: 4px;
+}
+@media (max-width: 1400px) {
+    .testimonials-img {
+        margin-top: 20%;
+    }
+}
+@media (max-width: 1200px) {
+    .testimonials-img {
+        margin-top: 30%;
+    }
+}
+@media (max-width: 1000px) {
+    .banner-text{
+        margin-top: 6rem;
+    }
+    .testimonials-img {
+        margin-top:2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .testimonials-img img{
+       
+width: 80%;
+    }
+}
+
+/* *******asked questions  **** */
+
+.faq-box {
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    background-image: linear-gradient(145deg, #e4e4e4, #ffffff);
+    break-inside: avoid;
+    margin: 0 5px 30px;
+    box-shadow: 10px 10px 30px rgb(207 207 208 / 20%), -10px -10px 30px rgb(255 255 255 / 90%);
+}
+
+.faq-box .h4-title {
+    padding: 16px 30px;
+    border-bottom: 1px solid #bfbfbf;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.faq-box p {
+    padding: 8px 30px 20px;
+    margin: 0;
+}
+.scrolltop{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+     margin-top: -7rem;
+
+}
+.scrolltop button{
+     border: none; 
+}
+.scrolltop button i{
+    font-size: 3rem;
+   
+}
+
+.copyright-text p{
+   
+    line-height: 3rem;
+  
+}
+@media (max-width: 1300px) {
+    .scrolltop{
+       
+        bottom: 7rem;
+        right: 1rem;
+       
+    
+    }}
+@media (max-width: 997px) {
+.scrolltop button i{
+    font-size: 2rem;
+    margin-left: 17rem;
+   
+} .scrolltop{
+        margin-top: 0;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+.site-footer{
+    margin: 2rem 0;
+}
